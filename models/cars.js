@@ -24,3 +24,14 @@ const cars = [
     isUsed: true,
   },
 ];
+
+function getAll() {
+  return cars;
+}
+
+function getOne() {}
+
+module.exports = {
+  getAll,
+  getOne,
+};
